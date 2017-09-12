@@ -6,8 +6,8 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 html,body{
 margin:0;
 padding:0;
-font-family: 'Open Sans', sans-serif;
-background: #fff url(../images/bg.jpg) center top no-repeat;
+font-family: 'Montserrat', sans-serif;
+background: #fff url(https://ak6.picdn.net/shutterstock/videos/4838711/thumb/1.jpg) center top no-repeat;
 background-size: cover;
 height: 100%;
 width: 100%;
@@ -31,23 +31,19 @@ width: 100%;
 float: left;
 }
 
-
-
 .header{
 	margin-top: 160px;
 	margin-bottom: 40px;
 }
 
-
 h1{
-font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
 color: #fff;
 text-align: center;
 font-size: 50px;
 font-weight: 300;
 margin: 0 0 10px 0;
 }
-
 
 h1 strong{
 font-size: 38px;
@@ -58,15 +54,13 @@ h2{
 	text-align: center;
 	font-weight: 300;
 	font-size: 20px;
-		color: #ffffff;
-
+  color: #ffffff;
 }
 
 h2 strong{
 	font-weight: 700;
 	font-style: italic;
 }
-
 
 .information{
 width: 480px;
@@ -93,12 +87,11 @@ margin-top: 20px;
 }
 
 .field{
-background: url(../images/field.png) repeat;
 width: 448px;
 -webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
 border: none;
 font-style: italic;
-font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-size: 16px;
 color: #ffffff;
 padding: 15px;
@@ -111,16 +104,16 @@ outline: none;
 	}
 @media only screen and (max-width: 480px)  {
 	.information{
-	width: 100%;
+  	width: 100%;
 	}
 	.form{
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
+  	width: 90%;
+  	margin-left: 5%;
+  	margin-right: 5%;
 	}
 
 	.field {
-	width: 90%;
+	  width: 90%;
 	}
 }
 
@@ -132,7 +125,7 @@ padding: 3px 10px;
 -webkit-border-radius: 30px;-moz-border-radius: 30px;border-radius: 30px;
 background: #ffffff;
 border: none;
-font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
 font-size: 14px;
 font-weight: bold;
 cursor: pointer;

@@ -6,7 +6,8 @@ var config = require('../config');
 router.get('/', function(req, res) {
   res.setLocale(config.locale);
   res.render('index', { community: config.community,
-                        tokenRequired: !!config.inviteToken });
+    tokenRequired: !!config.inviteToken
+  });
 });
 
 router.post('/invite', function(req, res) {
@@ -23,7 +24,7 @@ router.post('/invite', function(req, res) {
         //   {"ok":true}
         //       or
         //   {"ok":false,"error":"already_invited"}
-        if (err) { return res.send('Error:' + err); }
+        if (err) return res.send('Error:' + err);
         body = JSON.parse(body);
         if (body.ok) {
           res.render('result', {
